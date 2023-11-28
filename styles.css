@@ -203,6 +203,16 @@
     }
 }
 
+@keyframes a322 {
+    from {
+        transform: translate(0%, 0)
+    }
+
+    to {
+        transform: translate(20%, 10%)
+    }
+}
+
 
 @keyframes a2 {
     from {
@@ -259,18 +269,14 @@
 }
 
 @keyframes z {
-    0% {
+    from {
 
         transform: translateY(0)
     }
 
-    50% {
+   to {
 
-        transform: translateX(-20%)
-    }
-
-    to {
-        transform: translateY(0)
+        transform: translate(-20%, 10%)
     }
 }
 
@@ -294,7 +300,7 @@
     position: absolute;
     height: 100px;
     right: -30px;
-    top: -32%;
+    top: -31%;
     rotate: 90deg;
 }
 
@@ -322,7 +328,7 @@
     height: 100px;
     rotate: -90deg;
     left: -30px;
-    top: -32%;
+    top: -31%;
 }
 
 .arrow-7 span {
@@ -496,15 +502,15 @@
 }
 
 .symbol1 {
-    width: 144.15px;
-    height: 151.148px;
+    width: 300.15px;
+    height: 300.148px;
     background-size: contain;
     background-position: center;
     background-image: url("./assets/item4.png");
     position: absolute;
-    top: -300px;
-    z-index: 0;
-    left: -20px;
+    bottom: -200px;
+    z-index: 1;
+    left: -150px;
     rotate: 30deg;
     filter: blur(2.200000047683716px);
     animation: a 7s infinite ease-in-out;
@@ -512,16 +518,16 @@
 }
 
 .symbol2 {
-    width: 188.391px;
-    height: 197.536px;
+    width: 300.391px;
+    height: 300.536px;
     transform: rotate(275deg);
     background-size: contain;
     background-position: center;
     background-image: url("./assets/item3.png");
     position: absolute;
-    top: -300px;
+    bottom: -200px;
     z-index: 1;
-    right: -30px;
+    right: -150px;
     rotate: 90deg;
     filter: blur(2.200000047683716px);
     animation: b 5s infinite ease-in-out alternate;
@@ -538,7 +544,7 @@
     background-image: url("./assets/item1.png");
     position: absolute;
     right: -80px;
-    bottom: 100px;
+    bottom: 262px;
     z-index: 3;
     animation: e 10s infinite ease-in-out;
     rotate: 270deg;
@@ -546,17 +552,17 @@
 
 .coin3 {
     width: 150px;
-    height: 150px;
-    transform: rotate(1.439deg);
+    height: 150px;;
     background-size: contain;
     background-position: center;
     background-image: url("./assets/item2.png");
     position: absolute;
-    z-index: 3;
-    top: -127px;
-    right: -80px;
-    rotate: 200deg;
-    animation: z 15s infinite ease-in-out;
+    z-index: 1;
+    top: -500px;
+    left:-30px;
+    rotate: 310deg;
+
+    animation: z 12s infinite ease-in-out alternate;
 }
 
 .deskElements {
@@ -564,6 +570,16 @@
 }
 
 @media (min-width: 991px) {
+
+    .arrow-6 {
+        right: -30px;
+        top: -22%;
+    }
+
+    .arrow-7 {
+        left: -30px;
+        top: -22%;
+    }
 
     .mobElements {
         display: none;
@@ -592,7 +608,7 @@
         width: 200px;
         height: 420px;
         top: unset;
-        bottom: 0;
+        bottom: 10%;
         left: 0;
         transform: translate(-18%, 38%);
         rotate: -30deg;
@@ -607,10 +623,11 @@
         transform: rotate(3deg) translate(-50%, 30%);
         top: unset;
         filter: blur(2px);
-        bottom: -10%;
-        right: 0;
+        bottom: 0;
+        right:  10%;
         z-index: 2;
-        animation: d 10s infinite ease-in-out;
+        animation: a322 8s infinite ease-in-out alternate;
+        rotate: 40deg;
     }
 
     .coin1 {
@@ -624,22 +641,24 @@
     }
 
     .coin2 {
-        width: 145.282px;
-        height: 130.983px;
+        width: 200.282px;
+        height: 200.282px;
         transform: rotate(-5.425deg);
-        left: 20%;
+        left: 10%;
         bottom: 56%;
         z-index: 1;
+        rotate: 30deg;
     }
 
     .coin3 {
-        width: 150px;
+        width: 200px;
         background-repeat: no-repeat;
         height: 217px;
-        top: unset;
+        top: 10%;
+        z-index: 1;
         left: unset;
         right: 5%;
-        bottom: 30%;
+        rotate: 2deg;
     }
 
     .coin4 {
@@ -757,15 +776,18 @@
     }
 
     .symbol1 {
-        width: 300px;
-        height: 300px;
+        width: 450px;
+        height: 450px;
 
     }
 
+    .coin3 {
+        width: 350px;
+    }
+
     .symbol2 {
-        width: 300px;
-        height: 300px;
-        bottom: -15%;
+        width: 400px;
+        height: 400px;
     }
 
     .main {
