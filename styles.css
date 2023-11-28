@@ -550,7 +550,7 @@
     left: -72px;
     rotate: 310deg;
 
-    animation: z 12s infinite ease-in-out alternate;
+    animation: z 7s infinite ease-in-out alternate;
 }
 
 .deskElements {
@@ -677,7 +677,7 @@
         top: 10%;
         right: 10%;
         rotate: 76deg;
-        animation: z 5s infinite ease-in-out;
+        animation: z 3s infinite ease-in-out;
     }
 
 
@@ -846,13 +846,5 @@
         max-width: 100%;
         background: unset;
         padding-top: 0;
-    }
-}
-
-
-@media (min-width: 1400px) {
-    .coin4 {
-        width: 300px;
-        height: 300px;
     }
 }
