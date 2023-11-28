@@ -463,10 +463,8 @@
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
-    background: linear-gradient(267deg, #0FF 12.87%, #00B3FF 94.14%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 8px 10px rgba(0, 1, 28, 0.52);
+    color: #15FFFF;
 }
 
 
@@ -484,22 +482,12 @@
 .text3 {
     position: relative;
     z-index: 3;
-    background: linear-gradient(180deg, #FF9901 53.62%, #DF6505 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FFCD1B;
+    text-shadow: 0px 8px 10px rgba(0, 1, 28, 0.50);
     font-size: 36px;
     margin-bottom: -7px;
 }
 
-.text4 {
-    position: relative;
-    z-index: 2;
-    color: #FFDD2D;
-    text-shadow: 0px 4px 144px #FDC825, 0px 5px 5px #000;
-    font-size: 33px;
-    margin-bottom: 15px;
-}
 
 .symbol1 {
     width: 300.15px;
@@ -627,10 +615,10 @@
         height: 420px;
         top: unset;
         bottom: 10%;
-        left: 0;
+        left: -2%;
         transform: translate(-18%, 38%);
         rotate: -30deg;
-        animation: a1 5s infinite ease-in-out alternate;
+        animation: a1 8s infinite ease-in-out alternate;
         background-repeat: no-repeat;
     }
 
@@ -662,7 +650,7 @@
         width: 200.282px;
         height: 200.282px;
         transform: rotate(-5.425deg);
-        left: 10%;
+        left: 3%;
         bottom: 56%;
         z-index: 1;
         rotate: 30deg;
