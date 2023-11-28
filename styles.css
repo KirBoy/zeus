@@ -50,29 +50,29 @@
 .lighting1 {
     position: absolute;
     background-image: url("./assets/lighting.png");
-    width: 50vw;
-    height: 100%;
+    width: 300.482px;
+    height: 300.379px;
     transform: rotate(360deg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     animation: lightning 2.2s infinite;
-    right: -245px;
-    top: -242px;
+    top: 0;
+    right: -100px;
 }
 
 .lighting2 {
     position: absolute;
     background-image: url("./assets/lighting.png");
-    width: 50vw;
-    height: 100%;
+    width: 300.482px;
+    height: 300.379px;
     transform: rotate(235deg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     animation: lightning 2.2s infinite;
-    left: -245px;
-    top: -242px;
+    top: 0;
+    left: -100px;
 }
 
 @keyframes light {
@@ -558,8 +558,8 @@
     background-image: url("./assets/item2.png");
     position: absolute;
     z-index: 1;
-    top: -500px;
-    left:-30px;
+    top: -374px;
+    left: -72px;
     rotate: 310deg;
 
     animation: z 12s infinite ease-in-out alternate;
@@ -570,6 +570,24 @@
 }
 
 @media (min-width: 991px) {
+
+    .lighting1 {
+
+        width: 50vw;
+        height: 100%;
+        animation: lightning 2.2s infinite;
+        right: -245px;
+        top: -242px;
+    }
+
+    .lighting2 {
+
+        width: 50vw;
+        height: 100%;
+        animation: lightning 2.2s infinite;
+        left: -245px;
+        top: -242px;
+    }
 
     .arrow-6 {
         right: -30px;
