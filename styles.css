@@ -534,7 +534,7 @@
     right: -101px;
     bottom: 220px;
     z-index: 3;
-    animation: e 10s infinite ease-in-out;
+    animation: e 7s infinite ease-in-out;
     rotate: 51deg;
 }
 
@@ -615,7 +615,7 @@
         height: 420px;
         top: unset;
         bottom: 10%;
-        left: -2%;
+        left: -7%;
         transform: translate(-18%, 38%);
         rotate: -30deg;
         animation: a1 8s infinite ease-in-out alternate;
@@ -650,7 +650,7 @@
         width: 200.282px;
         height: 200.282px;
         transform: rotate(-5.425deg);
-        left: 3%;
+        left: 1%;
         bottom: 56%;
         z-index: 1;
         rotate: 30deg;
@@ -677,7 +677,7 @@
         top: 10%;
         right: 10%;
         rotate: 76deg;
-        animation: z 15s infinite ease-in-out;
+        animation: z 5s infinite ease-in-out;
     }
 
 
